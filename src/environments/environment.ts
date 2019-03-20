@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyB9SPMrh-JlZI-Map8N6eQ0eY6a96Yh5TM",
+    authDomain: "erp-codebro.firebaseapp.com",
+    databaseURL: "https://erp-codebro.firebaseio.com",
+    projectId: "erp-codebro",
+    storageBucket: "erp-codebro.appspot.com",
+    messagingSenderId: "106669632321"
+  }
 };
 
 /*
